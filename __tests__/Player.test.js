@@ -66,3 +66,11 @@ test('creates player object', () => {
         player.reduceHealth(99999);
         expect(player.health).toBe(0);
     })
+    test("gets player attack value", ()=> {
+        const player = new Player('Dave');
+        player.strength = 10;
+
+        expect(player.getAttackValue()).toBeGreaterThanOrEqual(5);
+        expect(player.getAttackValue()).toBeLessThanOrEqual(15);
+    })
+    
