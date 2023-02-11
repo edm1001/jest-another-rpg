@@ -47,5 +47,5 @@ test("subtracts from enemy's health", ()=> {
 
     enemy.reduceHealth(99999);
 
-    expect(enemy.health)(0);
+    expect(enemy.health).toBe(0);
 })
