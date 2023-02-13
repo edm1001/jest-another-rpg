@@ -18,5 +18,8 @@
   "homepage": "https://github.com/edm1001/jest-another-rpg#readme",
   "devDependencies": {
     "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
   }
 }
